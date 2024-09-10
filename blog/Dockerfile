@@ -1,4 +1,4 @@
-FROM arm64v8/eclipse-termurinL17-jdk-focal
+FROM arm64v8/eclipse-temurin:17-jdk-focal
 
 ARG JAR_FILE=build/lib/*.jar
 
